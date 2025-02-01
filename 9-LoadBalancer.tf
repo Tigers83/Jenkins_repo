@@ -31,7 +31,7 @@ resource "aws_lb_listener" "http" {
 }
 
 data "aws_acm_certificate" "cert" {
-  domain   = "eastcoastsaiyans001.com"
+  domain   = "eastcoastsaiyan.com"
   statuses = ["ISSUED"]
   most_recent = true
 }
