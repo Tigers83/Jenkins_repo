@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/LD2343/autoScaleDerrick' 
+                git branch: 'main', url: 'https://github.com/LD2343/Jenkins_repo' 
             }
         }
         stage('Initialize Terraform') {
